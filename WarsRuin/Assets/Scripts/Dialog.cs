@@ -10,9 +10,16 @@ public class Dialog : MonoBehaviour
     private int index;
     public float typingspeed;
 
+    public GameObject continueButton;
+
     void Start()
     {
         StartCoroutine(Type());
+    }
+
+    void Update()
+    {
+        
     }
 
     IEnumerator Type()
@@ -21,6 +28,19 @@ public class Dialog : MonoBehaviour
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(0.02f);
+        }
+    }
+
+    public void NextSentence()
+    {
+        if(index < sentences.Length - 1)
+        {
+            index++;
+            textDisplay.text = "";
+            StartCoroutine(Type());
+        } else
+        {
+            textDisplay.text = "";
         }
     }
 }
