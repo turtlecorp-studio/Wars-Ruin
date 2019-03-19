@@ -8,7 +8,7 @@ public class Dialog : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
-    public RawImage[] images;
+    public Sprite[] portraits;
     private int index;
     public float typingspeed;
 
