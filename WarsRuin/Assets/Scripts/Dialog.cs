@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Dialog : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
+    public RawImage[] images;
     private int index;
     public float typingspeed;
 
@@ -19,7 +21,10 @@ public class Dialog : MonoBehaviour
 
     void Update()
     {
-        
+        if (textDisplay.text == sentences[index])
+        {
+            continueButton.SetActive(true);
+        }
     }
 
     IEnumerator Type()
@@ -33,6 +38,8 @@ public class Dialog : MonoBehaviour
 
     public void NextSentence()
     {
+        continueButton.SetActive(false);
+        
         if(index < sentences.Length - 1)
         {
             index++;
@@ -41,6 +48,7 @@ public class Dialog : MonoBehaviour
         } else
         {
             textDisplay.text = "";
+            continueButton.SetActive(false);
         }
     }
 }
