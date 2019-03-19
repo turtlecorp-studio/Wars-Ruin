@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Dialogue", menuName = "Dialogues")]

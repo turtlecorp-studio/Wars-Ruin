@@ -13,6 +13,15 @@ MonoBehaviour:
   m_Name: Test
   m_EditorClassIdentifier: 
   dialogueInfo:
-  - myName: 
-    portrait: {fileID: 0}
-    myText: 
+  - myName: Hello
+    portrait: {fileID: 21300000, guid: a745a71ad84c48c4aaade3b425b4400c, type: 3}
+    myText: text text hello
+  - myName: Resse
+    portrait: {fileID: 21300000, guid: 6d490aadaec1e4345b96b83597f5d0d0, type: 3}
+    myText: yeet
+  - myName: Hello
+    portrait: {fileID: 21300000, guid: a745a71ad84c48c4aaade3b425b4400c, type: 3}
+    myText: yoor
+  - myName: Resse
+    portrait: {fileID: 21300000, guid: 6d490aadaec1e4345b96b83597f5d0d0, type: 3}
+    myText: reee

@@ -2,9 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
+
+    public static DialogueManager instance;
+    private void Awake()
+    {
+        if(instance != null)
+        {
+            Debug.LogWarning("fix this" + gameObject.name);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
+
     public Text dialogueName;
     public Text dialogueText;
     public Image dialoguePortrait;
@@ -19,6 +34,8 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueInfo.Enqueue(info);
         }
+
+        DequeueDialog();
     }
 
     public void DequeueDialog()
