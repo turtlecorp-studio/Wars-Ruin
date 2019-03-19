@@ -20,6 +20,8 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public GameObject dialogueBox;
+
     public Text dialogueName;
     public Text dialogueText;
     public Image dialoguePortrait;
@@ -40,10 +42,21 @@ public class DialogueManager : MonoBehaviour
 
     public void DequeueDialog()
     {
+        if(dialogueInfo.Count == 0)
+        {
+            EndOfDialogue();
+            return;
+        }
+
         DialogueBase.Info info = dialogueInfo.Dequeue();
         dialogueName.text = info.myName;
         dialogueText.text = info.myText;
         dialoguePortrait.sprite = info.portrait;
 
+    }
+
+    public void EndOfDialogue()
+    {
+        dialogueBox.SetActive(false);
     }
 }

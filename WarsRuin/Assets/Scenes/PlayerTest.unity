@@ -757,6 +757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54d21ed130ce06049b7efa08dfc90e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueBox: {fileID: 2096911055}
   dialogueName: {fileID: 1405863687}
   dialogueText: {fileID: 1875712741}
   dialoguePortrait: {fileID: 1105168729}
