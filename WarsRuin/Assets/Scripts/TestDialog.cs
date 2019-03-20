@@ -11,11 +11,24 @@ public class TestDialog : MonoBehaviour
         DialogueManager.instance.EnqueueDialogue(dialogue);
     }
 
-    private void Update()
+   /* private void Update()
     {
+      
         if(Input.GetKeyDown(KeyCode.Space))
         {
             TriggerDialogue();
         }
-    }
+    } */
+    
+
+     void OnCollisionEnter(Collision col)
+    {
+        if(col.gameObject.tag == "Player")
+        {
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                TriggerDialogue();
+            }
+        }
+    } 
 }
