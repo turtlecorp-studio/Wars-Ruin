@@ -761,6 +761,7 @@ MonoBehaviour:
   dialogueName: {fileID: 1405863687}
   dialogueText: {fileID: 1875712741}
   dialoguePortrait: {fileID: 1105168729}
+  delay: 0.001
 --- !u!4 &1214221080
 Transform:
   m_ObjectHideFlags: 0
@@ -1509,7 +1510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2096911056
 RectTransform:
   m_ObjectHideFlags: 0

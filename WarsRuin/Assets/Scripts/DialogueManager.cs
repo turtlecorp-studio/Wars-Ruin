@@ -25,11 +25,13 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueName;
     public Text dialogueText;
     public Image dialoguePortrait;
+    public float delay = 0.001f;
 
     public Queue<DialogueBase.Info> dialogueInfo = new Queue<DialogueBase.Info>(); //FIFO Collection
 
     public void EnqueueDialogue(DialogueBase db)
     {
+        dialogueBox.SetActive(true);
         dialogueInfo.Clear();
 
         foreach(DialogueBase.Info info in db.dialogueInfo)
@@ -53,6 +55,19 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = info.myText;
         dialoguePortrait.sprite = info.portrait;
 
+        StartCoroutine(TypeText(info));
+
+    }
+
+    IEnumerator TypeText(DialogueBase.Info info)
+    {
+        dialogueText.text = "";
+        foreach(char c in info.myText.ToCharArray())
+        {
+            yield return new WaitForSeconds(delay);
+            dialogueText.text += c;
+            yield return null;
+        }
     }
 
     public void EndOfDialogue()
