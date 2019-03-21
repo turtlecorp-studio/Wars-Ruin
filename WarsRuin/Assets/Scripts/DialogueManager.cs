@@ -33,6 +33,8 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueBox.SetActive(true);
         dialogueInfo.Clear();
+  
+        
 
         foreach(DialogueBase.Info info in db.dialogueInfo)
         {
@@ -58,6 +60,7 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(TypeText(info));
 
     }
+
 
     IEnumerator TypeText(DialogueBase.Info info)
     {
