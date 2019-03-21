@@ -9,6 +9,9 @@ public class Bullet : MonoBehaviour
 
     private float lifeTime;
 
+    public float nextBullet = 1f;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,11 @@ public class Bullet : MonoBehaviour
         if(lifeTime <= 0)
         {
             Destroy(gameObject);
+        }
+
+        if(Input.GetMouseButtonDown(0))
+        {
+            nextBullet = Time.time + bulletSpeed;
         }
     }
 }
