@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
     public float bulletSpeed = 125f;
     public float lifeDuration = 1f;
 
+    public int dmgBullet = 1;
+
     private float lifeTime;
 
 
@@ -27,5 +29,11 @@ public class Bullet : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        Destroy(gameObject);
     }
 }
