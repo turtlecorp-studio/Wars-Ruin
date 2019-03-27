@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    public bool[] isFull;
-    public GameObject[] slots;
+    public bool[] isFull; //Check if the slots are full or not
+    public GameObject[] slots; //List of slots
 }
