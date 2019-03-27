@@ -5,6 +5,7 @@ using UnityEngine;
 public class ItemPickup : MonoBehaviour
 {
     private Inventory inventory;
+    public GameObject itemButton;
 
     private void Start()
     {
@@ -17,9 +18,11 @@ public class ItemPickup : MonoBehaviour
         {
             for (int i = 0; i < inventory.slots.Length; i++)
             {
-                if(inventory.isFull[i] == false)
+                if (inventory.isFull[i] == false)
                 {
                     inventory.isFull[i] = true;
+                    Instantiate(itemButton, inventory.slots[i].transform, false); // Same position as inventory slot
+                    Destroy(gameObject);
                     break;
                 } //507
 
