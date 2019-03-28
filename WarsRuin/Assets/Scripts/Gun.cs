@@ -16,8 +16,8 @@ public class Gun : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             GameObject bulletObject = Instantiate(bulletPrefab);
-            bulletObject.transform.position = this.transform.position + this.transform.forward;
-            bulletObject.transform.forward = this.transform.forward;
+            bulletObject.transform.position = transform.position + transform.forward;
+            bulletObject.transform.forward = transform.forward;
 
         }
     }

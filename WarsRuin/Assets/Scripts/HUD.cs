@@ -17,12 +17,7 @@ public class HUD : MonoBehaviour {
 
 	}
 
-	void Update ()
-	{
-
-		HealthBarUI.sprite = HealthBarSprite[player.curHealth];
-
-	}
+    void Update() => HealthBarUI.sprite = HealthBarSprite[player.curHealth];
 
 }
 

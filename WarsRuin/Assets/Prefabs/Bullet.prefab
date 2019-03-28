@@ -101,9 +101,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3133645218272783134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08fdd70fcd6e76348b458113ee917960, type: 3}
+  m_Script: {fileID: 11500000, guid: e88650371add50c438042d9d63bd71fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 30
-  lifeDuration: 1
-  dmgBullet: 1
