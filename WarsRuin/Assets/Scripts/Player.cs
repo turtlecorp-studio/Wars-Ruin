@@ -8,9 +8,8 @@ public class Player : MonoBehaviour
     [SerializeField]
     float moveSpeed = 4f;
 
-    public Image healthSlider;
-    public float maxHealth = 100;
-    private float curHealth;
+    public int maxHealth = 10;
+    public int curHealth;
 
     Vector3 forward, right;
 
@@ -26,17 +25,21 @@ public class Player : MonoBehaviour
 
     }
 
-    public void TakeDamage(float amount)
-    {
-        curHealth -= amount;
-        healthSlider.fillAmount = curHealth / maxHealth;
-    }
-
     // Update is called once per frame
     void Update()
     {
         if (Input.anyKey)
             Move();
+
+        if (curHealth > maxHealth)
+        {
+            curHealth = maxHealth;
+        }
+
+        if (curHealth <= 0)
+        {
+            Die();
+        }
     }
 
     void Move()
@@ -58,5 +61,16 @@ public class Player : MonoBehaviour
         {
             curHealth -= 1;
         }
+    }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
+
+    public void Damage(int dmg)
+
+    {
+        curHealth -= dmg;
     }
 }

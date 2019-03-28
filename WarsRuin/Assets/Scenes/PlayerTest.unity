@@ -4236,6 +4236,11 @@ PrefabInstance:
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 448250592}
+    - target: {fileID: 1843962715378921666, guid: 4e82aad59a9df704da2c8c771d47a57e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1843962715378921671, guid: 4e82aad59a9df704da2c8c771d47a57e,
         type: 3}
       propertyPath: slots.Array.data[0]
