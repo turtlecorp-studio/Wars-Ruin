@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour {
 
     public float speed = 10f;
-    public float lifeDuration = 2f;
+    public float lifeDuration = 1f;
 
     private float lifeTimer;
 
@@ -25,12 +25,22 @@ public class Bullet : MonoBehaviour {
         }
     }
 
-    void OnTriggerEnter(Collider col)
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == ("Player"))
+        {
+            other.GetComponent<Player>().Damage(1);
+            Debug.Log("Collided");
+            Destroy(gameObject);
+        }
+    }
+
+    /*void OnTriggerEnter(Collider col)
 	{
 		if (col.isTrigger != true && col.gameObject.tag == ("Player")) {
 			col.GetComponent<Player>().Damage (1);
-			Destroy (gameObject); 
+			Destroy(gameObject); 
 		}
-	}
+	} */
 }
 
