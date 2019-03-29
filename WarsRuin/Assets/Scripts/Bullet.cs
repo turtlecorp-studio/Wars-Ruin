@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour {
 
-    public float speed = 10f;
-    public float lifeDuration = 1f;
+    public float speed = 25f;
+    public float lifeDuration = 0.5f;
 
     private float lifeTimer;
 
@@ -31,6 +31,13 @@ public class Bullet : MonoBehaviour {
         {
             other.GetComponent<Player>().Damage(1);
             Debug.Log("Collided");
+            Destroy(gameObject);
+        }
+
+        else if (other.gameObject.tag == ("Enemy"))
+        {
+            other.GetComponent<EnemyController>().Damage(1);
+            Debug.Log("Collided with enemy");
             Destroy(gameObject);
         }
     }
