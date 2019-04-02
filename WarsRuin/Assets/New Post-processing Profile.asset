@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
   m_Name: AmbientOcclusion
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -206,7 +206,7 @@ MonoBehaviour:
     value: 1
   gradingMode:
     overrideState: 1
-    value: 0
+    value: 1
   externalLut:
     overrideState: 0
     value: {fileID: 0}
@@ -241,19 +241,19 @@ MonoBehaviour:
     value: 0.993
   temperature:
     overrideState: 1
-    value: -0
+    value: 9.9
   tint:
     overrideState: 1
-    value: 6
+    value: 42.2
   colorFilter:
     overrideState: 1
-    value: {r: 0.6853863, g: 0.81317616, b: 0.9622642, a: 1}
+    value: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
   hueShift:
     overrideState: 1
-    value: -3
+    value: -16
   saturation:
     overrideState: 1
-    value: 9
+    value: 0.9
   brightness:
     overrideState: 0
     value: 0
@@ -262,16 +262,16 @@ MonoBehaviour:
     value: 0.64
   contrast:
     overrideState: 1
-    value: 4
+    value: -10.5
   mixerRedOutRedIn:
     overrideState: 1
-    value: 80
+    value: 84
   mixerRedOutGreenIn:
     overrideState: 1
-    value: -9
+    value: -4
   mixerRedOutBlueIn:
     overrideState: 1
-    value: 0
+    value: -8
   mixerGreenOutRedIn:
     overrideState: 0
     value: 0
@@ -286,19 +286,19 @@ MonoBehaviour:
     value: 0
   mixerBlueOutGreenIn:
     overrideState: 1
-    value: 0
+    value: 29
   mixerBlueOutBlueIn:
     overrideState: 1
     value: 102
   lift:
     overrideState: 1
-    value: {x: 1, y: 0.8720187, z: 0.982615, w: 0}
+    value: {x: 1, y: 0.8840372, z: 0.99448, w: 0}
   gamma:
     overrideState: 1
-    value: {x: 1, y: 0.9103054, z: 0.85392404, w: 0}
+    value: {x: 1, y: 0.786648, z: 0.7749513, w: 0}
   gain:
     overrideState: 1
-    value: {x: 0.92646766, y: 0.98343456, z: 1, w: 0}
+    value: {x: 0.9891026, y: 1, z: 0.9541139, w: 0}
   masterCurve:
     overrideState: 0
     value:
@@ -1511,7 +1511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
   m_Name: Grain
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -1598,7 +1598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
