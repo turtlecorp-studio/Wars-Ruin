@@ -57,6 +57,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePortrait.sprite = info.portrait;
 
 
+
         StartCoroutine(TypeText(info));
 
     }
