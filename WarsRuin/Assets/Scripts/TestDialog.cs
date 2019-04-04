@@ -5,6 +5,7 @@ using UnityEngine;
 public class TestDialog : MonoBehaviour
 {
     public DialogueBase dialogue;
+    public AudioSource triggerSound;
 
     public void TriggerDialogue()
     {
@@ -24,6 +25,7 @@ public class TestDialog : MonoBehaviour
     {
         if (Input.GetKeyDown("space") && other.tag == "Player")
         {
+            triggerSound.Play();
             TriggerDialogue();
         }
     }
