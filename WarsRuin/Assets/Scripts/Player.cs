@@ -6,39 +6,31 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     [SerializeField]
-    public float moveSpeed; 
-
-    private Rigidbody myRigidbody;
-
-    private Vector3 moveInput;
-    private Vector3 moveVelocity;
-
-    private Camera mainCamera;
+    float moveSpeed = 4f;
 
     public int maxHealth = 10;
     public int curHealth;
 
+    Vector3 forward, right;
 
     // Start is called before the first frame update
     void Start()
     {
         curHealth = maxHealth;
 
-        myRigidbody = GetComponent<Rigidbody>();
-        mainCamera = FindObjectOfType<Camera>();
+        forward = Camera.main.transform.forward; //Our forward = forward vector of camera
+        forward.y = 0; //Y value always set to 0
+        forward = Vector3.Normalize(forward); //Keeps the vectors direction 
+        right = Quaternion.Euler(new Vector3(0, 90, 0)) * forward; //Creating a rotation for right vector
 
-       
     }
 
     // Update is called once per frame
     void Update()
     {
-        moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
-        moveVelocity = moveInput * moveSpeed;
+        if (Input.anyKey)
+            Move();
 
-        Ray cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
-
-       
         if (curHealth > maxHealth)
         {
             curHealth = maxHealth;
@@ -50,11 +42,18 @@ public class Player : MonoBehaviour
         }
     }
 
-     void FixedUpdate()
+    void Move()
     {
-        myRigidbody.velocity = moveVelocity;
+        Vector3 direction = new Vector3(Input.GetAxis("HorizontalKey"), 0, Input.GetAxis("VerticalKey"));
+        Vector3 rightMovement = right * moveSpeed * Time.deltaTime * Input.GetAxis("HorizontalKey");
+        Vector3 upMovement = forward * moveSpeed * Time.deltaTime * Input.GetAxis("VerticalKey");
+
+        Vector3 heading = Vector3.Normalize(rightMovement + upMovement);
+
+        transform.forward = heading;
+        transform.position += rightMovement;
+        transform.position += upMovement;
     }
-    
 
     void OnCollisionEnter(Collision other)
     {
