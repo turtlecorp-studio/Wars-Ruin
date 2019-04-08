@@ -14,4 +14,14 @@ public class ButtonManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    void Update()
+   {
+      if (Input.GetKeyDown(KeyCode.Return))
+      {
+          SceneManager.LoadScene(2);
+      }
+   }
+
+
 }
