@@ -241,7 +241,7 @@ MonoBehaviour:
     value: 4
   colorFilter:
     overrideState: 1
-    value: {r: 0.4793966, g: 0.764151, b: 0.7190128, a: 1}
+    value: {r: 0.9811321, g: 0.7532428, b: 0.45817015, a: 1}
   hueShift:
     overrideState: 1
     value: 0
