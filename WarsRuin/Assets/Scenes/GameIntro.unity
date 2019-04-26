@@ -649,7 +649,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: In the year 19,400, a world war tore the countries and the people.
+  m_Text: 'In the year of blah, the blah army took most of the control of the trade
+    in Agroland by the Melteranean Sea. '
 --- !u!222 &956546050
 CanvasRenderer:
   m_ObjectHideFlags: 0

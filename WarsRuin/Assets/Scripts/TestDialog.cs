@@ -5,6 +5,8 @@ using UnityEngine;
 public class TestDialog : MonoBehaviour
 {
     public DialogueBase dialogue;
+    public GameObject alertIcon;
+    public GameObject lightIndicator;
     public AudioSource triggerSound;
 
     public void TriggerDialogue()
@@ -27,10 +29,22 @@ public class TestDialog : MonoBehaviour
         {
             triggerSound.Play();
             TriggerDialogue();
+            Destroy(alertIcon);
+           // Destroy(gameObject);
+            //Destroy(lightIndicator);
         }
     }
 
-  
-
+     void OnTriggerExit(Collider other)
+    {
+        if(other.tag == "Player")
+        {
+            Destroy(gameObject);
+            Destroy(lightIndicator);
+        }
     }
+
+
+
+}
 
