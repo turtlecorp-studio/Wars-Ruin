@@ -649,8 +649,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'In the year of blah, the blah army took most of the control of the trade
-    in Agroland by the Melteranean Sea. '
+  m_Text: 'In the year of 1147 UE, the Polisian army, has taken control of Agroland,
+    finally securing trade by the Melteranean Sea. The war crippled these lands and
+    have left lawless and desperate.Eugous Krenith, a Polisian soldier, presumed to
+    be dead.  '
 --- !u!222 &956546050
 CanvasRenderer:
   m_ObjectHideFlags: 0
