@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 7fac0b6399f62eb458b157b7fa2f01e9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Final_Model_Male_Character_Test:Head
+    100002: Final_Model_Male_Character_Test:Head 1
+    100004: Final_Model_Male_Character_Test:Hips
+    100006: Final_Model_Male_Character_Test:Hips 1
+    100008: Final_Model_Male_Character_Test:LeftArm
+    100010: Final_Model_Male_Character_Test:LeftArm 1
+    100012: Final_Model_Male_Character_Test:LeftFoot
+    100014: Final_Model_Male_Character_Test:LeftFoot 1
+    100016: Final_Model_Male_Character_Test:LeftForeArm
+    100018: Final_Model_Male_Character_Test:LeftForeArm 1
+    100020: Final_Model_Male_Character_Test:LeftHand
+    100022: Final_Model_Male_Character_Test:LeftHand 1
+    100024: Final_Model_Male_Character_Test:LeftLeg
+    100026: Final_Model_Male_Character_Test:LeftLeg 1
+    100028: Final_Model_Male_Character_Test:LeftShoulder
+    100030: Final_Model_Male_Character_Test:LeftShoulder 1
+    100032: Final_Model_Male_Character_Test:LeftToeBase
+    100034: Final_Model_Male_Character_Test:LeftToeBase 1
+    100036: Final_Model_Male_Character_Test:LeftUpLeg
+    100038: Final_Model_Male_Character_Test:LeftUpLeg 1
+    100040: Final_Model_Male_Character_Test:Neck
+    100042: Final_Model_Male_Character_Test:Neck 1
+    100044: Final_Model_Male_Character_Test:pSphere21
+    100046: Final_Model_Male_Character_Test:pSphere26
+    100048: Final_Model_Male_Character_Test:pSphere27
+    100050: Final_Model_Male_Character_Test:pSphere28
+    100052: Final_Model_Male_Character_Test:pSphere29
+    100054: Final_Model_Male_Character_Test:pSphere30
+    100056: Final_Model_Male_Character_Test:pSphere31
+    100058: Final_Model_Male_Character_Test:pSphere32
+    100060: Final_Model_Male_Character_Test:pSphere33
+    100062: Final_Model_Male_Character_Test:pSphere34
+    100064: Final_Model_Male_Character_Test:pSphere35
+    100066: Final_Model_Male_Character_Test:pSphere36
+    100068: Final_Model_Male_Character_Test:pSphere37
+    100070: Final_Model_Male_Character_Test:pSphere38
+    100072: Final_Model_Male_Character_Test:pSphere39
+    100074: Final_Model_Male_Character_Test:pSphere40
+    100076: Final_Model_Male_Character_Test:pSphere41
+    100078: Final_Model_Male_Character_Test:pSphere42
+    100080: Final_Model_Male_Character_Test:pSphere43
+    100082: Final_Model_Male_Character_Test:pSphere44
+    100084: Final_Model_Male_Character_Test:pSphere45
+    100086: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_ChestEndEffector
+    100088: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_ChestOriginEffector
+    100090: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Head
+    100092: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_HeadEffector
+    100094: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Hips
+    100096: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_HipsEffector
+    100098: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftAnkleEffector
+    100100: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftArm
+    100102: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftElbowEffector
+    100104: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftFoot
+    100106: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftFootEffector
+    100108: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftForeArm
+    100110: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftHand
+    100112: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftHipEffector
+    100114: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftKneeEffector
+    100116: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftLeg
+    100118: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftShoulder
+    100120: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftShoulderEffector
+    100122: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftToeBase
+    100124: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftUpLeg
+    100126: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftWristEffector
+    100128: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Neck
+    100130: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Reference
+    100132: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightAnkleEffector
+    100134: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightArm
+    100136: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightElbowEffector
+    100138: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightFoot
+    100140: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightFootEffector
+    100142: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightForeArm
+    100144: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightHand
+    100146: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightHipEffector
+    100148: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightKneeEffector
+    100150: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightLeg
+    100152: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightShoulder
+    100154: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightShoulderEffector
+    100156: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightToeBase
+    100158: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightUpLeg
+    100160: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightWristEffector
+    100162: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Spine
+    100164: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Spine1
+    100166: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Spine2
+    100168: Final_Model_Male_Character_Test:QuickRigCharacter1_Guides
+    100170: Final_Model_Male_Character_Test:QuickRigCharacter1_Head
+    100172: Final_Model_Male_Character_Test:QuickRigCharacter1_Hips
+    100174: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftArm
+    100176: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftFoot
+    100178: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftForeArm
+    100180: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftHand
+    100182: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftLeg
+    100184: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftShoulder
+    100186: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftToeBase
+    100188: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftUpLeg
+    100190: Final_Model_Male_Character_Test:QuickRigCharacter1_Neck
+    100192: Final_Model_Male_Character_Test:QuickRigCharacter1_Reference
+    100194: Final_Model_Male_Character_Test:QuickRigCharacter1_RightArm
+    100196: Final_Model_Male_Character_Test:QuickRigCharacter1_RightFoot
+    100198: Final_Model_Male_Character_Test:QuickRigCharacter1_RightForeArm
+    100200: Final_Model_Male_Character_Test:QuickRigCharacter1_RightHand
+    100202: Final_Model_Male_Character_Test:QuickRigCharacter1_RightLeg
+    100204: Final_Model_Male_Character_Test:QuickRigCharacter1_RightShoulder
+    100206: Final_Model_Male_Character_Test:QuickRigCharacter1_RightToeBase
+    100208: Final_Model_Male_Character_Test:QuickRigCharacter1_RightUpLeg
+    100210: Final_Model_Male_Character_Test:QuickRigCharacter1_Spine
+    100212: Final_Model_Male_Character_Test:QuickRigCharacter1_Spine1
+    100214: Final_Model_Male_Character_Test:QuickRigCharacter1_Spine2
+    100216: Final_Model_Male_Character_Test:QuickRigCharacter_Ctrl_Reference
+    100218: Final_Model_Male_Character_Test:QuickRigCharacter_Guides
+    100220: Final_Model_Male_Character_Test:QuickRigCharacter_Head
+    100222: Final_Model_Male_Character_Test:QuickRigCharacter_Hips
+    100224: Final_Model_Male_Character_Test:QuickRigCharacter_LeftArm
+    100226: Final_Model_Male_Character_Test:QuickRigCharacter_LeftFoot
+    100228: Final_Model_Male_Character_Test:QuickRigCharacter_LeftForeArm
+    100230: Final_Model_Male_Character_Test:QuickRigCharacter_LeftHand
+    100232: Final_Model_Male_Character_Test:QuickRigCharacter_LeftLeg
+    100234: Final_Model_Male_Character_Test:QuickRigCharacter_LeftShoulder
+    100236: Final_Model_Male_Character_Test:QuickRigCharacter_LeftToeBase
+    100238: Final_Model_Male_Character_Test:QuickRigCharacter_LeftUpLeg
+    100240: Final_Model_Male_Character_Test:QuickRigCharacter_Neck
+    100242: Final_Model_Male_Character_Test:QuickRigCharacter_Reference
+    100244: Final_Model_Male_Character_Test:QuickRigCharacter_RightArm
+    100246: Final_Model_Male_Character_Test:QuickRigCharacter_RightFoot
+    100248: Final_Model_Male_Character_Test:QuickRigCharacter_RightForeArm
+    100250: Final_Model_Male_Character_Test:QuickRigCharacter_RightHand
+    100252: Final_Model_Male_Character_Test:QuickRigCharacter_RightLeg
+    100254: Final_Model_Male_Character_Test:QuickRigCharacter_RightShoulder
+    100256: Final_Model_Male_Character_Test:QuickRigCharacter_RightToeBase
+    100258: Final_Model_Male_Character_Test:QuickRigCharacter_RightUpLeg
+    100260: Final_Model_Male_Character_Test:QuickRigCharacter_Spine
+    100262: Final_Model_Male_Character_Test:QuickRigCharacter_Spine1
+    100264: Final_Model_Male_Character_Test:QuickRigCharacter_Spine2
+    100266: Final_Model_Male_Character_Test:Reference
+    100268: Final_Model_Male_Character_Test:Reference 1
+    100270: Final_Model_Male_Character_Test:RightArm
+    100272: Final_Model_Male_Character_Test:RightArm 1
+    100274: Final_Model_Male_Character_Test:RightFoot
+    100276: Final_Model_Male_Character_Test:RightFoot 1
+    100278: Final_Model_Male_Character_Test:RightForeArm
+    100280: Final_Model_Male_Character_Test:RightForeArm 1
+    100282: Final_Model_Male_Character_Test:RightHand
+    100284: Final_Model_Male_Character_Test:RightHand 1
+    100286: Final_Model_Male_Character_Test:RightLeg
+    100288: Final_Model_Male_Character_Test:RightLeg 1
+    100290: Final_Model_Male_Character_Test:RightShoulder
+    100292: Final_Model_Male_Character_Test:RightShoulder 1
+    100294: Final_Model_Male_Character_Test:RightToeBase
+    100296: Final_Model_Male_Character_Test:RightToeBase 1
+    100298: Final_Model_Male_Character_Test:RightUpLeg
+    100300: Final_Model_Male_Character_Test:RightUpLeg 1
+    100302: Final_Model_Male_Character_Test:Spine
+    100304: Final_Model_Male_Character_Test:Spine 1
+    100306: Final_Model_Male_Character_Test:Spine1
+    100308: Final_Model_Male_Character_Test:Spine1 1
+    100310: Final_Model_Male_Character_Test:Spine2
+    100312: Final_Model_Male_Character_Test:Spine2 1
+    100314: Final_Model_Male_Character_Test:transform5
+    100316: //RootNode
+    400000: Final_Model_Male_Character_Test:Head
+    400002: Final_Model_Male_Character_Test:Head 1
+    400004: Final_Model_Male_Character_Test:Hips
+    400006: Final_Model_Male_Character_Test:Hips 1
+    400008: Final_Model_Male_Character_Test:LeftArm
+    400010: Final_Model_Male_Character_Test:LeftArm 1
+    400012: Final_Model_Male_Character_Test:LeftFoot
+    400014: Final_Model_Male_Character_Test:LeftFoot 1
+    400016: Final_Model_Male_Character_Test:LeftForeArm
+    400018: Final_Model_Male_Character_Test:LeftForeArm 1
+    400020: Final_Model_Male_Character_Test:LeftHand
+    400022: Final_Model_Male_Character_Test:LeftHand 1
+    400024: Final_Model_Male_Character_Test:LeftLeg
+    400026: Final_Model_Male_Character_Test:LeftLeg 1
+    400028: Final_Model_Male_Character_Test:LeftShoulder
+    400030: Final_Model_Male_Character_Test:LeftShoulder 1
+    400032: Final_Model_Male_Character_Test:LeftToeBase
+    400034: Final_Model_Male_Character_Test:LeftToeBase 1
+    400036: Final_Model_Male_Character_Test:LeftUpLeg
+    400038: Final_Model_Male_Character_Test:LeftUpLeg 1
+    400040: Final_Model_Male_Character_Test:Neck
+    400042: Final_Model_Male_Character_Test:Neck 1
+    400044: Final_Model_Male_Character_Test:pSphere21
+    400046: Final_Model_Male_Character_Test:pSphere26
+    400048: Final_Model_Male_Character_Test:pSphere27
+    400050: Final_Model_Male_Character_Test:pSphere28
+    400052: Final_Model_Male_Character_Test:pSphere29
+    400054: Final_Model_Male_Character_Test:pSphere30
+    400056: Final_Model_Male_Character_Test:pSphere31
+    400058: Final_Model_Male_Character_Test:pSphere32
+    400060: Final_Model_Male_Character_Test:pSphere33
+    400062: Final_Model_Male_Character_Test:pSphere34
+    400064: Final_Model_Male_Character_Test:pSphere35
+    400066: Final_Model_Male_Character_Test:pSphere36
+    400068: Final_Model_Male_Character_Test:pSphere37
+    400070: Final_Model_Male_Character_Test:pSphere38
+    400072: Final_Model_Male_Character_Test:pSphere39
+    400074: Final_Model_Male_Character_Test:pSphere40
+    400076: Final_Model_Male_Character_Test:pSphere41
+    400078: Final_Model_Male_Character_Test:pSphere42
+    400080: Final_Model_Male_Character_Test:pSphere43
+    400082: Final_Model_Male_Character_Test:pSphere44
+    400084: Final_Model_Male_Character_Test:pSphere45
+    400086: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_ChestEndEffector
+    400088: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_ChestOriginEffector
+    400090: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Head
+    400092: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_HeadEffector
+    400094: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Hips
+    400096: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_HipsEffector
+    400098: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftAnkleEffector
+    400100: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftArm
+    400102: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftElbowEffector
+    400104: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftFoot
+    400106: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftFootEffector
+    400108: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftForeArm
+    400110: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftHand
+    400112: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftHipEffector
+    400114: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftKneeEffector
+    400116: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftLeg
+    400118: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftShoulder
+    400120: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftShoulderEffector
+    400122: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftToeBase
+    400124: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftUpLeg
+    400126: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_LeftWristEffector
+    400128: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Neck
+    400130: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Reference
+    400132: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightAnkleEffector
+    400134: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightArm
+    400136: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightElbowEffector
+    400138: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightFoot
+    400140: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightFootEffector
+    400142: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightForeArm
+    400144: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightHand
+    400146: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightHipEffector
+    400148: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightKneeEffector
+    400150: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightLeg
+    400152: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightShoulder
+    400154: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightShoulderEffector
+    400156: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightToeBase
+    400158: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightUpLeg
+    400160: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_RightWristEffector
+    400162: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Spine
+    400164: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Spine1
+    400166: Final_Model_Male_Character_Test:QuickRigCharacter1_Ctrl_Spine2
+    400168: Final_Model_Male_Character_Test:QuickRigCharacter1_Guides
+    400170: Final_Model_Male_Character_Test:QuickRigCharacter1_Head
+    400172: Final_Model_Male_Character_Test:QuickRigCharacter1_Hips
+    400174: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftArm
+    400176: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftFoot
+    400178: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftForeArm
+    400180: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftHand
+    400182: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftLeg
+    400184: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftShoulder
+    400186: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftToeBase
+    400188: Final_Model_Male_Character_Test:QuickRigCharacter1_LeftUpLeg
+    400190: Final_Model_Male_Character_Test:QuickRigCharacter1_Neck
+    400192: Final_Model_Male_Character_Test:QuickRigCharacter1_Reference
+    400194: Final_Model_Male_Character_Test:QuickRigCharacter1_RightArm
+    400196: Final_Model_Male_Character_Test:QuickRigCharacter1_RightFoot
+    400198: Final_Model_Male_Character_Test:QuickRigCharacter1_RightForeArm
+    400200: Final_Model_Male_Character_Test:QuickRigCharacter1_RightHand
+    400202: Final_Model_Male_Character_Test:QuickRigCharacter1_RightLeg
+    400204: Final_Model_Male_Character_Test:QuickRigCharacter1_RightShoulder
+    400206: Final_Model_Male_Character_Test:QuickRigCharacter1_RightToeBase
+    400208: Final_Model_Male_Character_Test:QuickRigCharacter1_RightUpLeg
+    400210: Final_Model_Male_Character_Test:QuickRigCharacter1_Spine
+    400212: Final_Model_Male_Character_Test:QuickRigCharacter1_Spine1
+    400214: Final_Model_Male_Character_Test:QuickRigCharacter1_Spine2
+    400216: Final_Model_Male_Character_Test:QuickRigCharacter_Ctrl_Reference
+    400218: Final_Model_Male_Character_Test:QuickRigCharacter_Guides
+    400220: Final_Model_Male_Character_Test:QuickRigCharacter_Head
+    400222: Final_Model_Male_Character_Test:QuickRigCharacter_Hips
+    400224: Final_Model_Male_Character_Test:QuickRigCharacter_LeftArm
+    400226: Final_Model_Male_Character_Test:QuickRigCharacter_LeftFoot
+    400228: Final_Model_Male_Character_Test:QuickRigCharacter_LeftForeArm
+    400230: Final_Model_Male_Character_Test:QuickRigCharacter_LeftHand
+    400232: Final_Model_Male_Character_Test:QuickRigCharacter_LeftLeg
+    400234: Final_Model_Male_Character_Test:QuickRigCharacter_LeftShoulder
+    400236: Final_Model_Male_Character_Test:QuickRigCharacter_LeftToeBase
+    400238: Final_Model_Male_Character_Test:QuickRigCharacter_LeftUpLeg
+    400240: Final_Model_Male_Character_Test:QuickRigCharacter_Neck
+    400242: Final_Model_Male_Character_Test:QuickRigCharacter_Reference
+    400244: Final_Model_Male_Character_Test:QuickRigCharacter_RightArm
+    400246: Final_Model_Male_Character_Test:QuickRigCharacter_RightFoot
+    400248: Final_Model_Male_Character_Test:QuickRigCharacter_RightForeArm
+    400250: Final_Model_Male_Character_Test:QuickRigCharacter_RightHand
+    400252: Final_Model_Male_Character_Test:QuickRigCharacter_RightLeg
+    400254: Final_Model_Male_Character_Test:QuickRigCharacter_RightShoulder
+    400256: Final_Model_Male_Character_Test:QuickRigCharacter_RightToeBase
+    400258: Final_Model_Male_Character_Test:QuickRigCharacter_RightUpLeg
+    400260: Final_Model_Male_Character_Test:QuickRigCharacter_Spine
+    400262: Final_Model_Male_Character_Test:QuickRigCharacter_Spine1
+    400264: Final_Model_Male_Character_Test:QuickRigCharacter_Spine2
+    400266: Final_Model_Male_Character_Test:Reference
+    400268: Final_Model_Male_Character_Test:Reference 1
+    400270: Final_Model_Male_Character_Test:RightArm
+    400272: Final_Model_Male_Character_Test:RightArm 1
+    400274: Final_Model_Male_Character_Test:RightFoot
+    400276: Final_Model_Male_Character_Test:RightFoot 1
+    400278: Final_Model_Male_Character_Test:RightForeArm
+    400280: Final_Model_Male_Character_Test:RightForeArm 1
+    400282: Final_Model_Male_Character_Test:RightHand
+    400284: Final_Model_Male_Character_Test:RightHand 1
+    400286: Final_Model_Male_Character_Test:RightLeg
+    400288: Final_Model_Male_Character_Test:RightLeg 1
+    400290: Final_Model_Male_Character_Test:RightShoulder
+    400292: Final_Model_Male_Character_Test:RightShoulder 1
+    400294: Final_Model_Male_Character_Test:RightToeBase
+    400296: Final_Model_Male_Character_Test:RightToeBase 1
+    400298: Final_Model_Male_Character_Test:RightUpLeg
+    400300: Final_Model_Male_Character_Test:RightUpLeg 1
+    400302: Final_Model_Male_Character_Test:Spine
+    400304: Final_Model_Male_Character_Test:Spine 1
+    400306: Final_Model_Male_Character_Test:Spine1
+    400308: Final_Model_Male_Character_Test:Spine1 1
+    400310: Final_Model_Male_Character_Test:Spine2
+    400312: Final_Model_Male_Character_Test:Spine2 1
+    400314: Final_Model_Male_Character_Test:transform5
+    400316: //RootNode
+    2100000: lambert1
+    4300000: Final_Model_Male_Character_Test:pSphere26
+    4300002: Final_Model_Male_Character_Test:pSphere27
+    4300004: Final_Model_Male_Character_Test:pSphere28
+    4300006: Final_Model_Male_Character_Test:pSphere29
+    4300008: Final_Model_Male_Character_Test:pSphere30
+    4300010: Final_Model_Male_Character_Test:pSphere31
+    4300012: Final_Model_Male_Character_Test:pSphere32
+    4300014: Final_Model_Male_Character_Test:pSphere33
+    4300016: Final_Model_Male_Character_Test:pSphere34
+    4300018: Final_Model_Male_Character_Test:pSphere35
+    4300020: Final_Model_Male_Character_Test:pSphere36
+    4300022: Final_Model_Male_Character_Test:pSphere37
+    4300024: Final_Model_Male_Character_Test:pSphere38
+    4300026: Final_Model_Male_Character_Test:pSphere39
+    4300028: Final_Model_Male_Character_Test:pSphere40
+    4300030: Final_Model_Male_Character_Test:pSphere41
+    4300032: Final_Model_Male_Character_Test:pSphere42
+    4300034: Final_Model_Male_Character_Test:pSphere43
+    4300036: Final_Model_Male_Character_Test:pSphere44
+    4300038: Final_Model_Male_Character_Test:pSphere45
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Final_Model_Male_Character_Test:pSphere26
+    13700002: Final_Model_Male_Character_Test:pSphere27
+    13700004: Final_Model_Male_Character_Test:pSphere28
+    13700006: Final_Model_Male_Character_Test:pSphere29
+    13700008: Final_Model_Male_Character_Test:pSphere30
+    13700010: Final_Model_Male_Character_Test:pSphere31
+    13700012: Final_Model_Male_Character_Test:pSphere32
+    13700014: Final_Model_Male_Character_Test:pSphere33
+    13700016: Final_Model_Male_Character_Test:pSphere34
+    13700018: Final_Model_Male_Character_Test:pSphere35
+    13700020: Final_Model_Male_Character_Test:pSphere36
+    13700022: Final_Model_Male_Character_Test:pSphere37
+    13700024: Final_Model_Male_Character_Test:pSphere38
+    13700026: Final_Model_Male_Character_Test:pSphere39
+    13700028: Final_Model_Male_Character_Test:pSphere40
+    13700030: Final_Model_Male_Character_Test:pSphere41
+    13700032: Final_Model_Male_Character_Test:pSphere42
+    13700034: Final_Model_Male_Character_Test:pSphere43
+    13700036: Final_Model_Male_Character_Test:pSphere44
+    13700038: Final_Model_Male_Character_Test:pSphere45
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
