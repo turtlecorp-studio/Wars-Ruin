@@ -27,6 +27,9 @@ public class TestDialog : MonoBehaviour
     {
         if (Input.GetKeyDown("space") && other.tag == "Player")
         {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            GameObject.Find("Camera").GetComponent<ThirdPersonCamera>().enabled = false;
             triggerSound.Play();
             TriggerDialogue();
             Destroy(alertIcon);
