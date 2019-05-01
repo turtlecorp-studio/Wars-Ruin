@@ -38,12 +38,14 @@ public class TestDialog : MonoBehaviour
         }
     }
 
-     void OnTriggerExit(Collider other)
+
+    void OnTriggerExit(Collider other)
     {
         if(other.tag == "Player")
         {
             Destroy(gameObject);
             Destroy(lightIndicator);
+            GameObject.Find("Camera").GetComponent<ThirdPersonCamera>().enabled = true;
         }
     }
 
