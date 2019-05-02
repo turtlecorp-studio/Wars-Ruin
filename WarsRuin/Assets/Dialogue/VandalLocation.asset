@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7262c5865545b140b4f4096dd34df8a, type: 3}
+  m_Name: VandalLocation
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - myName: Eugous
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: Scuse' me sir. have you seen anyone suspicios?
+  - myName: Villager
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: Eh.... Suspicious you say? At this point, you fit the bill.
+  - myName: Eugous
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: Careful, sir, there are more suspicious people out there that are more
+      dangerous than me. You wouldn't want to meet them.
+  - myName: Villager
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: 'You should watch how you speak, young man. Do remember, you''re intruding
+      our lands. '
+  - myName: Eugous
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: I am doing what I need to do. For now, I am helping your people. Tell
+      me about the fire.
+  - myName: Villager
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: 'Get out while you have the chance. The fire was well-deserved for the
+      man. '
+  - myName: Villager
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: The one who did it, took every thing and went towards the bloody battle
+      grounds. Most likely, to go into the forest.
+  - myName: Eugous
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: Where in the forest?
+  - myName: Villager
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: There are a few cottages down there. Gladly, the battle didn't reach that
+      point. You might find them there.
+  - myName: Eugous
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: Thank you for telling me. Good day sir ... and I will take heed of your
+      warning.

@@ -73,8 +73,15 @@ MonoBehaviour:
   - myName: Agruth
     portrait: {fileID: 21300000, guid: cc19d8205dbd2f6469bb8f1645677adf, type: 3}
     otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
-    myText: "They don\u2019t even look at me when I walk past them now."
+    myText: 'Before the vandal burnt everything, he snuck into my shop and stole whatever
+      valuables there were, including a family heirloom. Its a pocket watch. '
   - myName: Agruth
     portrait: {fileID: 21300000, guid: cc19d8205dbd2f6469bb8f1645677adf, type: 3}
     otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
-    myText: "They don\u2019t even look at me when I walk past them now."
+    myText: "I can\u2019t trust anyone here to help me so I would appreciate it if
+      you could find the vandal and bring it back. I plan to sell the watch and use
+      the money to travel somewhere else to start a new life.\r\n"
+  - myName: Eugous
+    portrait: {fileID: 21300000, guid: cc19d8205dbd2f6469bb8f1645677adf, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
+    myText: "Fine, i\u2019ll do it considering I have no other options around here.\r\n"
