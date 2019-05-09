@@ -16,11 +16,9 @@ public class AgruthQuest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(agruthIntro == null)
+        if (agruthIntro == null)
         {
             questText.SetActive(true);
         }
-
-        Debug.Log(agruthIntro);
     }
 }
