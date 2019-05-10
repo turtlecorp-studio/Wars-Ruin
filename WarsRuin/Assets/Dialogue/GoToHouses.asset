@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueInfo:
   - myName: Eugous
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
-    myText: Pardon me, could you tell about the fire? Who did it?
-  - myName: Woman
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
-    myText: 'We javen''t witnessed anything! Cross the bridge to go to the village
-      houses. '
-  - myName: Woman
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
-    myText: Someone might know there.
+    portrait: {fileID: 21300000, guid: 9935f2c11e2385d42932d637b48f3999, type: 3}
+    otherPortraits: {fileID: 21300000, guid: 2eb44d9af02fa0f41a40e82972120e5d, type: 3}
+    myText: Pardon me, could you tell me whats going on?
+  - myName: Farmer
+    portrait: {fileID: 21300000, guid: cc19d8205dbd2f6469bb8f1645677adf, type: 3}
+    otherPortraits: {fileID: 21300000, guid: 2eb44d9af02fa0f41a40e82972120e5d, type: 3}
+    myText: What else could I say except how the war ruined us. Our crops are dying
+      in the winter.
+  - myName: Farmer
+    portrait: {fileID: 21300000, guid: cc19d8205dbd2f6469bb8f1645677adf, type: 3}
+    otherPortraits: {fileID: 21300000, guid: 2eb44d9af02fa0f41a40e82972120e5d, type: 3}
+    myText: 'The people are turning against each other. Oh Lord! '

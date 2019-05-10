@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7262c5865545b140b4f4096dd34df8a, type: 3}
+  m_Name: FoundVandal
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - myName: Cynda
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: Who are you? What is your business here!?
+  - myName: Eugous
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: 'You don''t have to worry about me. I am here for business. Such a lovely
+      lady, shouldn''t be here. '
+  - myName: Cynda
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: You have no idea who you're dealing with. I recommend you get off this
+      boat before I stop being so lovely.
+  - myName: Eugous
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: What would happen huh? The ship is out of bounds, do you wish to get arrested?
+  - myName: Cynda
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: Take this and get away from me. I have a visitor coming.
+  - myName: Eugous
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: 'A golden pocket watch? Stolen from Agruth, I see. Burnt down his shop
+      to bring his doom. You should be ashamed. '
+  - myName: Cynda
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: 'Agruth, a low life, an Arkasian scum. Stealing from my people, coming
+      into my country. '
+  - myName: Cynda
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: Not fighting the war even though he was of age. A coward. He deserved
+      it. You look like a soldier yourself.
+  - myName: Eugous
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: Though I am a soldier, I understand his side. The war was pointless leaving
+      nothing but suffering. I wish I lived his peaceful life.
+  - myName: Cynda
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: This country is full of cowards...
+  - myName: Eugous
+    portrait: {fileID: 0}
+    otherPortraits: {fileID: 0}
+    myText: Well I have what I came for. I'll take my leave now.

@@ -14,49 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueInfo:
   - myName: Eugous
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
+    portrait: {fileID: 21300000, guid: cc19d8205dbd2f6469bb8f1645677adf, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
     myText: Scuse' me sir. have you seen anyone suspicios?
   - myName: Villager
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
+    portrait: {fileID: 21300000, guid: cc19d8205dbd2f6469bb8f1645677adf, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
     myText: Eh.... Suspicious you say? At this point, you fit the bill.
   - myName: Eugous
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
+    portrait: {fileID: 21300000, guid: cea694bcb8512c84fa533280354cbfa2, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
     myText: Careful, sir, there are more suspicious people out there that are more
       dangerous than me. You wouldn't want to meet them.
   - myName: Villager
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
+    portrait: {fileID: 21300000, guid: 9935f2c11e2385d42932d637b48f3999, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
     myText: 'You should watch how you speak, young man. Do remember, you''re intruding
       our lands. '
   - myName: Eugous
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
+    portrait: {fileID: 21300000, guid: 9935f2c11e2385d42932d637b48f3999, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
     myText: I am doing what I need to do. For now, I am helping your people. Tell
       me about the fire.
   - myName: Villager
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
+    portrait: {fileID: 21300000, guid: 9935f2c11e2385d42932d637b48f3999, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
     myText: 'Get out while you have the chance. The fire was well-deserved for the
       man. '
   - myName: Villager
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
+    portrait: {fileID: 21300000, guid: cc19d8205dbd2f6469bb8f1645677adf, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
     myText: The one who did it, took every thing and went towards the bloody battle
       grounds. Most likely, to go into the forest.
   - myName: Eugous
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
+    portrait: {fileID: 21300000, guid: cc19d8205dbd2f6469bb8f1645677adf, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
     myText: Where in the forest?
   - myName: Villager
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
+    portrait: {fileID: 21300000, guid: cc19d8205dbd2f6469bb8f1645677adf, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
     myText: There are a few cottages down there. Gladly, the battle didn't reach that
       point. You might find them there.
   - myName: Eugous
-    portrait: {fileID: 0}
-    otherPortraits: {fileID: 0}
+    portrait: {fileID: 21300000, guid: 9935f2c11e2385d42932d637b48f3999, type: 3}
+    otherPortraits: {fileID: 21300000, guid: dcec510e4cec0d3419117f77bc97cd35, type: 3}
     myText: Thank you for telling me. Good day sir ... and I will take heed of your
       warning.

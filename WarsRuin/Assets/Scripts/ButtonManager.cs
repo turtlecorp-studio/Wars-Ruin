@@ -5,23 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
-   public void StartGame()
+
+    public void StartGame()
     {
         SceneManager.LoadScene(1);
     }
 
-   public void ExitGame()
+    public void ExitGame()
     {
         Application.Quit();
     }
 
+    public void ContinueToGame()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+
+
     void Update()
    {
-      if (Input.GetKeyDown(KeyCode.Return))
-      {
-          SceneManager.LoadScene(2);
-      }
+    
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
    }
-
-
 }
+
+

@@ -6,6 +6,8 @@ public class AgruthQuest : MonoBehaviour
 {
     public GameObject questText;
     public GameObject agruthIntro;
+    public GameObject pathBlockers;
+    public GameObject lockedNotifications;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,8 @@ public class AgruthQuest : MonoBehaviour
         if (agruthIntro == null)
         {
             questText.SetActive(true);
+            pathBlockers.SetActive(false);
+            Destroy(lockedNotifications);
         }
     }
 }
