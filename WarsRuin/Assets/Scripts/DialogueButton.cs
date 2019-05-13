@@ -6,6 +6,9 @@ public class DialogueButton : MonoBehaviour
 {
     public void GetNextLine()
     {
-        DialogueManager.instance.DequeueDialog();
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            DialogueManager.instance.DequeueDialog();
+        }
     }
 }
