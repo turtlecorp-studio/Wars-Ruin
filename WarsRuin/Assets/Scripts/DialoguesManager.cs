@@ -7,12 +7,13 @@ using UnityEngine.UI;
 public class DialoguesManager : MonoBehaviour
 {
 
+
     public Text nameText;
     public Text dialogueText;
     public Sprite Actor;
-    public Image Portraits;
     public Image imageSpot;
-
+    public GameObject fpsController;
+    public Animator animator;
 
     private Queue<string> sentences;
 
@@ -25,13 +26,14 @@ public class DialoguesManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
 
         Debug.Log("Starting conversation with " + dialogue.name);
 
         Actor.sprite = dialogue.actor;
-        imageSpot.sprite = dialogue.actor;
+        imageSpot.sprite = dialogue.Actor;
         nameText.text = dialogue.name;
         sentences.Clear();
 
@@ -40,26 +42,24 @@ public class DialoguesManager : MonoBehaviour
             sentences.Enqueue(sentence);
         }
 
-      void DisplayNextSentence () { 
-        if (sentences.Count == 0)
+       void DisplayNextSentence()
         {
-            EndDialogue();
-            return;
+            if (sentences.Count == 0)
+            {
+                EndDialogue();
+                return;
+            }
+
+            string sentence = sentences.Dequeue();
+            dialogueText.text = sentence;
+            Debug.Log(sentence);
         }
 
-        string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
-        Debug.Log(sentence);
+        void EndDialogue()
+        {
+            Debug.Log("End of Conversation.");
+            Cursor.visible = false;
+        }
     }
 
-    void EndDialogue()
-    {
-      
-        Debug.Log("End of Conversation.");
-
-        Cursor.visible = false;
-    }
-
-}
-
-    }
+   }
