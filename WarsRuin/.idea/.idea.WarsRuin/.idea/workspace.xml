@@ -9,32 +9,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextTypewriter.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <marker date="1554733063492" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554733063492" expanded="true" signature="123:297" ph="{...}" />
-                <marker date="1554733063492" expanded="true" signature="195:216" ph="{...}" />
-                <marker date="1554733063492" expanded="true" signature="274:295" ph="{...}" />
+                <marker date="1558024506661" expanded="false" signature="6:100" ph="..." />
+                <marker date="1558024506661" expanded="true" signature="145:726" ph="{...}" />
+                <marker date="1558024506661" expanded="true" signature="325:373" ph="{...}" />
+                <marker date="1558024506661" expanded="true" signature="402:724" ph="{...}" />
+                <marker date="1558024506661" expanded="true" signature="546:718" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="465">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <marker date="1554735949748" expanded="false" signature="6:113" ph="..." />
-                <marker date="1554735949748" expanded="true" signature="157:437" ph="{...}" />
-                <marker date="1554735949748" expanded="true" signature="186:233" ph="{...}" />
-                <marker date="1554735949748" expanded="true" signature="260:300" ph="{...}" />
-                <marker date="1554735949748" expanded="true" signature="326:434" ph="{...}" />
+                <marker date="1558043299866" expanded="false" signature="6:113" ph="..." />
+                <marker date="1558043299866" expanded="true" signature="157:526" ph="{...}" />
+                <marker date="1558043299866" expanded="true" signature="188:235" ph="{...}" />
+                <marker date="1558043299866" expanded="true" signature="263:303" ph="{...}" />
+                <marker date="1558043299866" expanded="true" signature="337:384" ph="{...}" />
+                <marker date="1558043299866" expanded="true" signature="405:524" ph="{...}" />
+                <marker date="1558043299866" expanded="true" signature="460:519" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadVillage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <marker date="1558042855381" expanded="true" signature="6:127" ph="..." />
+                <marker date="1558042855381" expanded="true" signature="169:317" ph="{...}" />
+                <marker date="1558042855381" expanded="true" signature="223:315" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DialogueButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <marker date="1558043182469" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558043182469" expanded="true" signature="123:228" ph="{...}" />
+                <marker date="1558043182469" expanded="true" signature="155:226" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -46,12 +77,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextTypewriter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadVillage.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadVillage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonManager.cs" />
       </list>
     </option>
@@ -68,20 +103,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -103,12 +140,14 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -123,11 +162,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554733083246</updated>
       <workItem from="1554733123458" duration="1452000" />
+      <workItem from="1558042582528" duration="1053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1452000" />
+    <option name="totallyTimeSpent" value="2505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -139,23 +179,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -163,20 +193,29 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -188,28 +227,55 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextTypewriter.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DialogueButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="75">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <marker date="1554733063492" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554733063492" expanded="true" signature="123:297" ph="{...}" />
-            <marker date="1554733063492" expanded="true" signature="195:216" ph="{...}" />
-            <marker date="1554733063492" expanded="true" signature="274:295" ph="{...}" />
+            <marker date="1558043182469" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558043182469" expanded="true" signature="123:228" ph="{...}" />
+            <marker date="1558043182469" expanded="true" signature="155:226" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="465">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <marker date="1554735949748" expanded="false" signature="6:113" ph="..." />
-            <marker date="1554735949748" expanded="true" signature="157:437" ph="{...}" />
-            <marker date="1554735949748" expanded="true" signature="186:233" ph="{...}" />
-            <marker date="1554735949748" expanded="true" signature="260:300" ph="{...}" />
-            <marker date="1554735949748" expanded="true" signature="326:434" ph="{...}" />
+            <marker date="1558043299866" expanded="false" signature="6:113" ph="..." />
+            <marker date="1558043299866" expanded="true" signature="157:526" ph="{...}" />
+            <marker date="1558043299866" expanded="true" signature="188:235" ph="{...}" />
+            <marker date="1558043299866" expanded="true" signature="263:303" ph="{...}" />
+            <marker date="1558043299866" expanded="true" signature="337:384" ph="{...}" />
+            <marker date="1558043299866" expanded="true" signature="405:524" ph="{...}" />
+            <marker date="1558043299866" expanded="true" signature="460:519" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadVillage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <marker date="1558042855381" expanded="true" signature="6:127" ph="..." />
+            <marker date="1558042855381" expanded="true" signature="169:317" ph="{...}" />
+            <marker date="1558042855381" expanded="true" signature="223:315" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextTypewriter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558024506661" expanded="false" signature="6:100" ph="..." />
+            <marker date="1558024506661" expanded="true" signature="145:726" ph="{...}" />
+            <marker date="1558024506661" expanded="true" signature="325:373" ph="{...}" />
+            <marker date="1558024506661" expanded="true" signature="402:724" ph="{...}" />
+            <marker date="1558024506661" expanded="true" signature="546:718" ph="{...}" />
           </folding>
         </state>
       </provider>
