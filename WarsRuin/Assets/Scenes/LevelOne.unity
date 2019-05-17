@@ -83597,7 +83597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1998049383
 RectTransform:
   m_ObjectHideFlags: 0
@@ -90994,7 +90994,7 @@ PrefabInstance:
     - target: {fileID: 8902756126306636143, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 697.5
+      value: 697.48663
       objectReference: {fileID: 0}
     - target: {fileID: 8902756126306636143, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
@@ -91004,7 +91004,7 @@ PrefabInstance:
     - target: {fileID: 8902756126306636143, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 877.7
+      value: 877.7062
       objectReference: {fileID: 0}
     - target: {fileID: 8902756126306636143, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
@@ -91014,7 +91014,7 @@ PrefabInstance:
     - target: {fileID: 8902756126306636143, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7017459
+      value: -0.2946887
       objectReference: {fileID: 0}
     - target: {fileID: 8902756126306636143, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
@@ -91024,7 +91024,7 @@ PrefabInstance:
     - target: {fileID: 8902756126306636143, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7124274
+      value: 0.95559335
       objectReference: {fileID: 0}
     - target: {fileID: 8902756126306636143, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
@@ -91039,7 +91039,7 @@ PrefabInstance:
     - target: {fileID: 8902756126306636143, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -89.134
+      value: -34.278
       objectReference: {fileID: 0}
     - target: {fileID: 8902756126306636143, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
@@ -91054,7 +91054,7 @@ PrefabInstance:
     - target: {fileID: 8902756127146481059, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
       propertyPath: Speed
-      value: 15
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8902756127146481057, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
