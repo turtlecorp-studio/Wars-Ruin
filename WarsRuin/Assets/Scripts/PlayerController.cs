@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float Speed;
     public Animator anim;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -34,4 +35,6 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("ShouldWalk", false);
         }
     }
+
+    
 }

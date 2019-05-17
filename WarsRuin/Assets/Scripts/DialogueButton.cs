@@ -7,6 +7,5 @@ public class DialogueButton : MonoBehaviour
     public void GetNextLine()
     {
         DialogueManager.instance.DequeueDialog();
-        
     }
 }

@@ -29,6 +29,11 @@ public class DialogueManager : MonoBehaviour
 
     public Queue<DialogueBase.Info> dialogueInfo = new Queue<DialogueBase.Info>(); //FIFO Collection
 
+     void Update()
+    {
+        ToggleDialogue();
+    }
+
     public void EnqueueDialogue(DialogueBase db)
     {
         dialogueBox.SetActive(true);
@@ -79,5 +84,16 @@ public class DialogueManager : MonoBehaviour
     public void EndOfDialogue()
     {
         dialogueBox.SetActive(false);
+    }
+
+    public void ToggleDialogue()
+    {
+        if (dialogueBox.activeSelf == true)
+        {
+            GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
+        } else if (dialogueBox.activeSelf == false)
+        {
+            GameObject.Find("Player").GetComponent<PlayerController>().enabled = true;
+        }
     }
 }
