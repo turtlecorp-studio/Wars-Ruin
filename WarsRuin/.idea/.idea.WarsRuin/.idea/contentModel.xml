@@ -19,6 +19,7 @@
             </e>
           </e>
         </e>
+        <e p="KillBox.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AgruthQuest.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
@@ -27,6 +28,12 @@
           <e p="DialogueBase.cs" t="Include" />
           <e p="DialogueButton.cs" t="Include" />
           <e p="DialogueManager.cs" t="Include" />
+          <e p="Dialogues" t="Include">
+            <e p="Dialog.cs" t="Include" />
+            <e p="DialogManager.cs" t="Include" />
+            <e p="DialogTrigger.cs" t="Include" />
+          </e>
+          <e p="EndTutAnim.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="FontFix.cs" t="Include" />
           <e p="Gun.cs" t="Include" />
@@ -42,6 +49,7 @@
           <e p="PlayerBullet.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
+          <e p="PlayTutAnim.cs" t="Include" />
           <e p="SceneTransition.cs" t="Include" />
           <e p="TestDialog.cs" t="Include" />
           <e p="TextTypewriter.cs" t="Include" />
