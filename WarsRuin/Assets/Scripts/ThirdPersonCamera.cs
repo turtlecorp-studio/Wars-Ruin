@@ -23,15 +23,7 @@ public class ThirdPersonCamera : MonoBehaviour
 
    void Update()
     {
-        if (dialogue.activeSelf == true)
-        {
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
-        } else
-        {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
-        }
+        
     } 
 
     void CamControl()

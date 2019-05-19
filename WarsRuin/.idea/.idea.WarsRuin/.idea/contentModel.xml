@@ -19,7 +19,6 @@
             </e>
           </e>
         </e>
-        <e p="KillBox.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AgruthQuest.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
@@ -43,6 +42,7 @@
           <e p="Interaction.cs" t="Include" />
           <e p="Inventory.cs" t="Include" />
           <e p="ItemPickup.cs" t="Include" />
+          <e p="KillBox.cs" t="Include" />
           <e p="LoadVillage.cs" t="Include" />
           <e p="PathLockedTrigger.cs" t="Include" />
           <e p="Player.cs" t="Include" />

@@ -8,6 +8,10 @@ public class DialogManager : MonoBehaviour
 {
     public Text nameText;
     public Text dialogText;
+    public Image playerPortrait;
+    public Image npcPortrait;
+
+    public Animator animator;
     
     private Queue<string> sentences; //First in first out
 
@@ -25,6 +29,10 @@ public class DialogManager : MonoBehaviour
 
     public void StartDialog(Dialog dialog)
     {
+        animator.SetBool("isOpen", true);
+
+        playerPortrait.sprite = dialog.playerPortrait;
+        npcPortrait.sprite = dialog.npcPortrait;
         nameText.text = dialog.name;
         
         sentences.Clear();
@@ -51,6 +59,7 @@ public class DialogManager : MonoBehaviour
 
     void EndDialogue()
     {
+        animator.SetBool("isOpen", false);
         Debug.Log("End of convo.");
     }
 }

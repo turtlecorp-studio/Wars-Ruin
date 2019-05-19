@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class Dialog
 {
    public string name;
-   public Image playerPortrait;
-   public Image npcPortrait;
+   public Sprite playerPortrait;
+   public Sprite npcPortrait;
    [TextArea(3, 10)]
    public string[] sentences;
    
