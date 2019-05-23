@@ -6,10 +6,11 @@ using UnityEngine.UI;
 [System.Serializable]
 public class Dialog
 {
-   public string name;
+   public Sprite leftName;
+   public Sprite rightName;
    public Sprite playerPortrait;
    public Sprite npcPortrait;
-   [TextArea(3, 10)]
+   [TextArea(3, 15)]
    public string[] sentences;
    
 }

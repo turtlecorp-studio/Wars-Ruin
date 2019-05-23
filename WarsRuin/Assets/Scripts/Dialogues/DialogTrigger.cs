@@ -17,7 +17,17 @@ public class DialogTrigger : MonoBehaviour
 
     private void TriggerDialog()
     {
-        
+
         FindObjectOfType<DialogManager>().StartDialog(dialog);
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    
 }

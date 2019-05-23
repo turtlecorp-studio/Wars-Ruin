@@ -20,13 +20,12 @@ MonoBehaviour:
   - myName: Eugous
     portrait: {fileID: 0}
     otherPortraits: {fileID: 0}
-    myText: 'You don''t have to worry about me. I am here for business. Such a lovely
-      lady, shouldn''t be here. '
+    myText: 'What am I doing here?! What are you doing here? '
   - myName: Cynda
     portrait: {fileID: 0}
     otherPortraits: {fileID: 0}
     myText: You have no idea who you're dealing with. I recommend you get off this
-      boat before I stop being so lovely.
+      ship before I lose my patience.
   - myName: Eugous
     portrait: {fileID: 0}
     otherPortraits: {fileID: 0}

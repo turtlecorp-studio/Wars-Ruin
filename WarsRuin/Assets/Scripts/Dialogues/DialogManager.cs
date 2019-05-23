@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
 {
-    public Text nameText;
+    public Image leftNameText;
+    public Image rightNameText;
     public Text dialogText;
     public Image playerPortrait;
     public Image npcPortrait;
@@ -21,6 +22,7 @@ public class DialogManager : MonoBehaviour
     }
     void Update()
     {
+        
         if (Input.GetKeyDown("space"))
         {
             DisplayNextSentence();
@@ -33,8 +35,11 @@ public class DialogManager : MonoBehaviour
 
         playerPortrait.sprite = dialog.playerPortrait;
         npcPortrait.sprite = dialog.npcPortrait;
-        nameText.text = dialog.name;
-        
+        leftNameText.sprite = dialog.leftName;
+        rightNameText.sprite = dialog.rightName;
+
+        GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
+
         sentences.Clear();
 
         foreach (string sentence in dialog.sentences)
@@ -60,6 +65,7 @@ public class DialogManager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("isOpen", false);
+        GameObject.Find("Player").GetComponent<PlayerController>().enabled = true;
         Debug.Log("End of convo.");
     }
 }
