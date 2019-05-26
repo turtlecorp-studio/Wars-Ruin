@@ -68,4 +68,5 @@ public class DialogManager : MonoBehaviour
         GameObject.Find("Player").GetComponent<PlayerController>().enabled = true;
         Debug.Log("End of convo.");
     }
+    
 }
