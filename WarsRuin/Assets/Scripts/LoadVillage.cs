@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class LoadVillage : MonoBehaviour
 {
-   
-    private void OnTriggerEnter(Collider other)
+    public LevelLoader other;
+
+    private void OnTriggerEnter(Collider col)
     {
-        other.gameObject.tag = "Player";
-        SceneManager.LoadScene("Map");
+        col.gameObject.tag = "Player";
+        other.LoadLevel(3);
     }
 }
