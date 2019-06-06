@@ -11,19 +11,17 @@ public class WanderAI : MonoBehaviour
     private bool isRotatingLeft = false;
     private bool isRotatingRight = false;
     private bool isWalking = false;
-
-    // Start is called before the first frame update
-    void Start()
+    public Animator anim;
+    private void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         if(isWandering == false)
         {
             StartCoroutine(Wander());
+            anim.SetBool("ShouldWalk", false);
         }
         if (isRotatingRight == true)
         {
@@ -38,6 +36,7 @@ public class WanderAI : MonoBehaviour
         if(isWalking == true)
         {
             transform.position += transform.forward * moveSpeed * Time.deltaTime;
+            anim.SetBool("ShouldWalk", true);
         }
     }
 

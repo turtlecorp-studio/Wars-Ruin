@@ -106,6 +106,8 @@ ModelImporter:
     4300034: pSphere43
     4300036: pSphere44
     4300038: pSphere45
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -118,7 +120,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -126,7 +129,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -158,8 +161,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -173,7 +176,112 @@ ModelImporter:
   humanDescription:
     serializedVersion: 2
     human: []
-    skeleton: []
+    skeleton:
+    - name: Final_Male_Character_Model_Smooth(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere26
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.7995299, y: 1.9764625, z: -0.028645787}
+      rotation: {x: -0.049718022, y: -0.7053567, z: -0.049718022, w: 0.7053567}
+      scale: {x: 11.651046, y: 31.898275, z: 12.541484}
+    - name: pSphere27
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.8526415, y: 1.6015837, z: -0.028645787}
+      rotation: {x: -0.0364852, y: -0.7061649, z: -0.0364852, w: 0.7061649}
+      scale: {x: 11.651046, y: 31.898275, z: 12.541484}
+    - name: pSphere28
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.43347034, y: 1.8218149, z: -0.02984202}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 29.292555, y: 28.796972, z: 23.986607}
+    - name: pSphere29
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.43347034, y: 1.577328, z: -0.027893402}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 20.309711, y: 24.916565, z: 19.547462}
+    - name: pSphere30
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.43347034, y: 1.4324533, z: -0.027893402}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 13.429476, y: 14.682771, z: 13.779461}
+    - name: pSphere31
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.29124045, y: 0.6064982, z: -0.016643137}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 17.240902, y: 45.681408, z: 14.411677}
+    - name: pSphere32
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.58021516, y: 0.6064982, z: -0.016643137}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 17.240902, y: 45.681408, z: 14.411677}
+    - name: pSphere33
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.42907992, y: 2.2960052, z: -0.053254116}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 13.469597, y: 24.573397, z: 14.474747}
+    - name: pSphere34
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.58021516, y: 1.1951157, z: -0.028645787}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 19.831547, y: 37.066696, z: 15.369751}
+    - name: pSphere35
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.29124045, y: 1.1951157, z: -0.028645787}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 19.831547, y: 37.066696, z: 15.369751}
+    - name: pSphere36
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.42907992, y: 2.502496, z: 0.03870069}
+      rotation: {x: 0.04018359, y: -0, z: -0, w: 0.9991923}
+      scale: {x: 25.577694, y: 29.167957, z: 25.382868}
+    - name: pSphere37
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.687261, y: 2.188663, z: -0.027893402}
+      rotation: {x: 0, y: -0, z: -0.42261827, w: 0.9063078}
+      scale: {x: 13.855087, y: 15.4690485, z: 17.839092}
+    - name: pSphere38
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.58021516, y: 0.18056996, z: 0.07854753}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 14.17473, y: 24.34674, z: 15.933237}
+    - name: pSphere39
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.29181018, y: 0.18056996, z: 0.07854753}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 14.17473, y: 24.34674, z: 15.933237}
+    - name: pSphere40
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.43347034, y: 2.0853803, z: -0.024133924}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 31.874228, y: 37.267002, z: 26.187601}
+    - name: pSphere41
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.8754215, y: 1.3357762, z: -0.028645787}
+      rotation: {x: -0.0364852, y: -0.7061649, z: -0.0364852, w: 0.7061649}
+      scale: {x: 13.554062, y: 11.623144, z: 13.651698}
+    - name: pSphere42
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.15988149, y: 2.1925135, z: -0.027893402}
+      rotation: {x: 0, y: 0, z: 0.42261827, w: 0.9063078}
+      scale: {x: 13.855087, y: 15.4690485, z: 17.839092}
+    - name: pSphere43
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.049672227, y: 1.9880968, z: -0.028645787}
+      rotation: {x: 0.70429176, y: 0.06303298, z: 0.70429176, w: -0.06303298}
+      scale: {x: 11.651046, y: 31.898275, z: 12.541484}
+    - name: pSphere44
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: -0.007188329, y: 1.5954056, z: -0.028645787}
+      rotation: {x: 0.034011528, y: -0.70628834, z: 0.034011528, w: 0.70628834}
+      scale: {x: 11.651046, y: 31.898275, z: 12.541484}
+    - name: pSphere45
+      parentName: Final_Male_Character_Model_Smooth(Clone)
+      position: {x: 0.019301204, y: 1.3333318, z: -0.028645787}
+      rotation: {x: 0.028170979, y: -0.7065454, z: 0.028170979, w: 0.7065454}
+      scale: {x: 13.554062, y: 11.623144, z: 13.651698}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -183,7 +291,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
