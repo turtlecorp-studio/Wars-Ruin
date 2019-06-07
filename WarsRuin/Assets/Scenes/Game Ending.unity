@@ -33442,6 +33442,8 @@ GameObject:
   m_Component:
   - component: {fileID: 830158275}
   - component: {fileID: 830158276}
+  - component: {fileID: 830158277}
+  - component: {fileID: 830158278}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -33484,6 +33486,32 @@ MonoBehaviour:
     - This is it. A chance to start a new life...
     - 'It will be difficult leaving the past life of war behind. '
     - It will be difficult to forget.
+--- !u!65 &830158277
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830158274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &830158278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830158274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681d497764e9fc74ea4f9d0fd9ce96f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerScript: {fileID: 830158276}
 --- !u!1 &862776921
 GameObject:
   m_ObjectHideFlags: 0
@@ -79148,6 +79176,11 @@ PrefabInstance:
       propertyPath: m_HDR
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8902756127146481063, guid: 62f0e2d324613444e8122ebc02727dea,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8902756126639510109, guid: 62f0e2d324613444e8122ebc02727dea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -79234,5 +79267,6 @@ PrefabInstance:
       propertyPath: blendDistance
       value: 3354.6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8902756126639510097, guid: 62f0e2d324613444e8122ebc02727dea, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 62f0e2d324613444e8122ebc02727dea, type: 3}
