@@ -4,23 +4,23 @@ using UnityEngine;
 
 public class AgruthQuest : MonoBehaviour
 {
-    public GameObject questText;
-    public GameObject agruthIntro;
+    public GameObject dialogEnd;
+    public GameObject questNotify;
     public GameObject pathBlockers;
     public GameObject lockedNotifications;
 
     // Start is called before the first frame update
     void Start()
     {
-        questText.SetActive(false);
+        questNotify.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (agruthIntro == null)
+        if (dialogEnd == null)
         {
-            questText.SetActive(true);
+            questNotify.SetActive(true);
             pathBlockers.SetActive(false);
             Destroy(lockedNotifications);
         }
