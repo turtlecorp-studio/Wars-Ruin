@@ -5,6 +5,7 @@ using UnityEngine;
 public class AgruthQuest : MonoBehaviour
 {
     public GameObject dialogEnd;
+    public GameObject questLight;
     public GameObject questNotify;
     public GameObject pathBlockers;
     public GameObject lockedNotifications;
@@ -22,6 +23,7 @@ public class AgruthQuest : MonoBehaviour
         {
             questNotify.SetActive(true);
             pathBlockers.SetActive(false);
+            Destroy(questLight);
             Destroy(lockedNotifications);
         }
     }
