@@ -30,6 +30,12 @@ public class ButtonManager : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
+
+        if (Input.GetKey(KeyCode.P))
+        {
+            Application.Quit();
+            Debug.Log("Quitting game");
+        }
    }
 }
 

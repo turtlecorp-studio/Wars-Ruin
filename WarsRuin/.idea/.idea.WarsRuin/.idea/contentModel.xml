@@ -32,6 +32,8 @@
             <e p="DialogManager.cs" t="Include" />
             <e p="DialogTrigger.cs" t="Include" />
           </e>
+          <e p="EndMission.cs" t="Include" />
+          <e p="EndMonologue.cs" t="Include" />
           <e p="EndTutAnim.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="FontFix.cs" t="Include" />
@@ -43,6 +45,7 @@
           <e p="Inventory.cs" t="Include" />
           <e p="ItemPickup.cs" t="Include" />
           <e p="KillBox.cs" t="Include" />
+          <e p="LevelLoader.cs" t="Include" />
           <e p="LoadVillage.cs" t="Include" />
           <e p="PathLockedTrigger.cs" t="Include" />
           <e p="Player.cs" t="Include" />
@@ -55,6 +58,7 @@
           <e p="TextTypewriter.cs" t="Include" />
           <e p="ThirdPersonCamera.cs" t="Include" />
           <e p="ThoughtTrigger.cs" t="Include" />
+          <e p="TransitionToEnd.cs" t="Include" />
           <e p="WanderAI.cs" t="Include" />
         </e>
         <e p="Shader" t="Include">
